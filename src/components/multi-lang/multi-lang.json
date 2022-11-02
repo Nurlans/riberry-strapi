@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_multi_lang_multi_langs",
+  "info": {
+    "displayName": "multiLang",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "az": {
+      "type": "richtext"
+    },
+    "ru": {
+      "type": "richtext"
+    },
+    "en": {
+      "type": "richtext"
+    }
+  }
+}

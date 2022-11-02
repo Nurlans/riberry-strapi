@@ -111,6 +111,11 @@
       ],
       "required": true,
       "default": "interior"
+    },
+    "desc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "multi-lang.multi-lang"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "architecture",
     "pluralName": "architectures",
-    "displayName": "architecture"
+    "displayName": "architecture",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,17 +19,23 @@
       "type": "richtext"
     },
     "architecture_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "architecture_stage": {
       "type": "string"
+    },
+    "arch_desc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "multi-lang.multi-lang"
     }
   }
 }
