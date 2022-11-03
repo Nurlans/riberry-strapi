@@ -12,26 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "architecture_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
+    "stage": {
+      "type": "text"
+    },
+    "stage_image": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
-    "architecture_stage": {
-      "type": "string"
-    },
-    "arch_desc": {
+    "stage_desc": {
       "type": "component",
       "repeatable": false,
       "component": "multi-lang.multi-lang"
     },
-    "arch_title": {
+    "stage_title": {
       "type": "component",
       "repeatable": false,
       "component": "multi-lang.multi-lang"
