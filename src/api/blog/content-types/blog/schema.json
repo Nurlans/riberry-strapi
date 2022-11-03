@@ -26,13 +26,15 @@
     "blog_date": {
       "type": "date"
     },
-    "blog_title": {
-      "type": "text"
-    },
     "blog_description": {
       "type": "richtext"
     },
     "blog_desc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "multi-lang.multi-lang"
+    },
+    "blog_title": {
       "type": "component",
       "repeatable": false,
       "component": "multi-lang.multi-lang"

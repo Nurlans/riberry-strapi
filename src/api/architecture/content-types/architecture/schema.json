@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "architecture_title": {
-      "type": "string"
-    },
-    "architecture_description": {
-      "type": "richtext"
-    },
     "architecture_image": {
       "type": "media",
       "multiple": false,
@@ -33,6 +27,11 @@
       "type": "string"
     },
     "arch_desc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "multi-lang.multi-lang"
+    },
+    "arch_title": {
       "type": "component",
       "repeatable": false,
       "component": "multi-lang.multi-lang"

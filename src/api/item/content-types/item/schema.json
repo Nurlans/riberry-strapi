@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "place_type": {
       "type": "enumeration",
       "enum": [
@@ -87,20 +84,6 @@
         "images"
       ]
     },
-    "blockForm": {
-      "type": "enumeration",
-      "enum": [
-        "leftFive",
-        "rightFive",
-        "topThree",
-        "rightBigFive",
-        "leftBigFive"
-      ],
-      "required": false
-    },
-    "description": {
-      "type": "richtext"
-    },
     "kind_of_place": {
       "type": "enumeration",
       "enum": [
@@ -113,6 +96,11 @@
       "default": "interior"
     },
     "desc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "multi-lang.multi-lang"
+    },
+    "item_title": {
       "type": "component",
       "repeatable": false,
       "component": "multi-lang.multi-lang"

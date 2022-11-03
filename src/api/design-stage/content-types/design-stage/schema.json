@@ -29,10 +29,12 @@
     "stage_description": {
       "type": "richtext"
     },
-    "stage_title": {
-      "type": "string"
-    },
     "stage_desc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "multi-lang.multi-lang"
+    },
+    "stage_title": {
       "type": "component",
       "repeatable": false,
       "component": "multi-lang.multi-lang"
