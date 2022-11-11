@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_place_type_place_types",
+  "info": {
+    "displayName": "place-type",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "publicType": {
+      "type": "enumeration",
+      "enum": [
+        "Hamam",
+        "Beauty salon"
+      ]
+    },
+    "interiorType": {
+      "type": "enumeration",
+      "enum": [
+        "Living room",
+        "Kitchen",
+        "Bedroom"
+      ]
+    }
+  }
+}
